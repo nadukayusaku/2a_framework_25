@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form th:action="@{/update}" method="POST" enctype="multipart/form-data">
+変更前<br>
+商品名：<input type="text" name="item_name"> <br>
+値段：<input type="text" name="price"> <br>
+<input type="submit"value="変更"><br>
+</form>
+</body>
+</html>
